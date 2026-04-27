@@ -27,12 +27,10 @@
 
 ;; restclient
 (require 'restclient)
+(require 'restclient-jq)
 (add-to-list 'auto-mode-alist '("\\.http\\'" . restclient-mode))
 (setq restclient-enable-eval 1)
 
 ;; mermaid-mode
 (require 'mermaid-mode)
 (setq mermaid-flags "--backgroundColor transparent")
-
-;; restclient
-(require 'restclient-jq)
