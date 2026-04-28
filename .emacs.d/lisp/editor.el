@@ -11,4 +11,21 @@
 (setq dired-listing-switches "-alFh")
 
 ;; grep default command
-(setq grep-command "grep -irnH ")
+(setq grep-template "grep -irnH <R> <F>")
+
+;; js/ts
+(add-hook 'typescript-mode-hook
+		  (lambda ()
+			(setq typescript-indent-level 2)
+			(setq indent-tabs-mode nil)))
+(add-hook 'js-mode-hook
+		  (lambda ()
+			(setq js-indent-level 2)
+			(setq indent-tabs-mode nil)))
+(add-hook 'web-mode-hook
+		  (lambda ()
+			(setq web-mode-code-indent-offset 2)
+			(setq web-mode-markup-indent-offset 2)
+			(setq web-mode-attr-indent-offset 2)
+			(setq indent-tabs-mode nil)))
+
