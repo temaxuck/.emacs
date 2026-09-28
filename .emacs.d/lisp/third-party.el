@@ -1,6 +1,9 @@
 ;; -*- lexical-binding: t; -*-
 (add-to-list 'load-path "/home/temax/.emacs.d/extensions/")
 
+;; tatr
+(require 'tatr)
+
 ;; company
 (add-hook 'after-init-hook 'global-company-mode)
 
