@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t; -*-
 (require 'package)
 ;; Official repository of melpa.org is too slow for me (maybe because
 ;; I'm based in Russia).  So I'm using official mirror. It seems to be

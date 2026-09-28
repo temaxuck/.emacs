@@ -1,4 +1,9 @@
+;; -*- lexical-binding: t; -*-
 (setq-default tab-width 4)
+
+(setq c-basic-offset 4)
+(setq tab-width 4)
+(setq indent-tabs-mode nil)
 
 ;; go-mode format before save
 (add-hook 'go-mode-hook (lambda () (add-hook 'before-save-hook 'gofmt-before-save nil t)))

@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t; -*-
 (load-theme 'gruvbox-dark-hard t)
 (set-frame-font "Iosevka-20")
 

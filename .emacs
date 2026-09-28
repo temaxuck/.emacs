@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t; -*-
 (add-to-list 'load-path "/home/temax/.emacs.d/lisp")
 (load "init.el")
 

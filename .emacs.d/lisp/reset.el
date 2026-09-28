@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t; -*-
 (setq inhibit-splash-screen 1)
 (setq inhibit-startup-screen 1)
 
