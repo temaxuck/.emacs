@@ -9,9 +9,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("d80952c58cf1b06d936b1392c38230b74ae1a2a6729594770762dc0779ac66b7" default))
+   '("d80952c58cf1b06d936b1392c38230b74ae1a2a6729594770762dc0779ac66b7"
+	 default))
  '(package-selected-packages
-   '(## yaml-mode mermaid-mode typescript-mode markdown-mode restclient-jq seq restclient rust-mode python-mode go-mode magit company gruvbox-theme))
+   '(## company go-mode gruvbox-theme ido-completing-read+ magit
+		markdown-mode mermaid-mode python-mode restclient
+		restclient-jq rust-mode seq smex typescript-mode yaml-mode))
  '(warning-suppress-log-types '((comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
